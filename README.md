@@ -1,6 +1,6 @@
 # Bankist Web Application
 
-Bankist is a simple and modern banking application that allows users to make deposits, withdrawals and request loans from the bank. You can see my implementation of it [here](https://oczywsziysya-bankist.netlify.app). 
+Bankist is a simple and modern banking application that allows users to make deposits, withdrawals and request loans from the bank. You can see my implementation of it [here](https://lucasgss0000.github.io/bankist/). 
 
 This is a project from the Jonas Schmedtmann's JS course, "Working with Arrays" module, you can see his official DEMO [here](https://bankist.netlify.app/). 
 
@@ -69,4 +69,4 @@ As a beginner in web-development and programming in general, this is the most ex
 - My idle timer works a little bit differently. Whenever a user tries to do any kind of action (be it successful or unsuccessful), the timer is reset. Jonas' timer, on the other hand, is reset only when the user successfully transfers money or requests a loan.
 - My currency balance date is updated every time the UI changes. Jonas' currency balance date does not change after the user has logged in, even when the UI is updated.
 - I implemented a very rudimentary, but functional currency conversion between accounts, all thanks to dynamic variable names. It converts between USD (<span>$</span>), GBP (£), EUR (€) and BRL (R<span>$</span>). On Jonas' version, even though the currency formatting is different for each account (since it's formatted according to the user's locale), the values are the same. For instance, if Jessica (US) transfers 1000 USD to Sarah (BR), Sarah will receive a deposit of 1000 BRL, which is incorrect. My currency conversion rates are hard-coded, though, so this is a point of improvement for the future.
-- As mentioned before, I made it responsive accross all screensizes from 1440px to 320px. It could be better, of course, but it works quite well and is much better than having a broken page.
+- As mentioned before, I made it responsive accross all screensizes from 1440px to 320px.
